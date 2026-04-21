@@ -2,7 +2,7 @@
 
 A modern, professional, and fully responsive navigation bar featuring integrated search and login modals. Built with HTML, SCSS/CSS, and Vanilla JavaScript.
 
-![Project Preview](assets/img/bg-image.png)
+![Project Preview](assets/preview.png)
 
 ## 🚀 Features
 
