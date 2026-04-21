@@ -4,8 +4,10 @@
    top: 0;
    left: 0;
    width: 100%;
-   background-color: var(--body-color);
-   box-shadow: 0 2px 16px hsla(230, 75%, 32%, .15);
+   background-color: hsla(142, 15%, 8%, .3);
+   backdrop-filter: blur(16px);
+   -webkit-backdrop-filter: blur(16px);
+   border-bottom: 1px solid hsla(142, 15%, 80%, .1);
    z-index: var(--z-fixed);
 }
 
@@ -43,8 +45,9 @@
          position: fixed;
          top: -100%;
          left: 0;
-         background-color: var(--body-color);
-         box-shadow: 0 8px 16px hsla(230, 75%, 32%, .15);
+         background-color: hsla(142, 15%, 8%, .8);
+         backdrop-filter: blur(24px);
+         -webkit-backdrop-filter: blur(24px);
          width: 100%;
          padding-block: 4.5rem 4rem;
          transition: top .4s;
